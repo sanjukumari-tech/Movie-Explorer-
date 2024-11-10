@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function GenreFilter({ onFilter }: { onFilter: (genre: string) => void }) {
   const [selectedGenre, setSelectedGenre] = useState('');

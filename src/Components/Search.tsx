@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import 
+ { useState } from 'react';
 import GenreFilter from './GenreFilter'; // Adjust the import path as necessary
 
 function Search({ onSearch }: { onSearch: (query: string, genre: string) => void }) {

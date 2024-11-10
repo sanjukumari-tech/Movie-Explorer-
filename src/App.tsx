@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import{ useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Search from '../src/Components/Search';
 import MovieList from '../src/Components/MovieList';
 import MovieDetail from '../src/Components/MovieDetail';
-// import Footer from '../src/Components/Footer'; // Import the Footer component
+
 import "./App.css";
+
 
 function App() {
   const [movies, setMovies] = useState<any[]>([]);
@@ -18,6 +19,7 @@ function App() {
   return (
     <Router>
       <div className="app-container">
+      
         <Routes>
           <Route path="/" element={
             <>
